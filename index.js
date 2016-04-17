@@ -1,5 +1,5 @@
 var request = require('request');
-request('https://api.meetup.com/Sea-kayakers-friends/events?key=meetup_key_here&sign=true&status=upcoming', function (error, response, body) {
+request('https://api.meetup.com/Sea-kayakers-friends/events?key=PASTE_YOUR_MEETUP_KEY_HERE&sign=true&status=upcoming', function (error, response, body) {
   if (!error && response.statusCode == 200) {
     //console.log(body) // Show the raw response
     
